@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quiz render 1`] = `
+<DocumentFragment>
+  <div
+    class="Quiz"
+  >
+    <div
+      class="Quiz__content"
+    >
+      <h2
+        class="Quiz__content-title"
+      />
+      <ul
+        class="List"
+      />
+    </div>
+    <div
+      class="Quiz__panel"
+    >
+      <div
+        class="ScorePanel"
+      >
+        <ul
+          class="List List--column"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

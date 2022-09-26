@@ -1,0 +1,36 @@
+.Button {
+    max-width: 296px;
+    width: 100%;
+    padding: 22px 24px;
+    color: var(--cl-white-100);
+    background-color: var(--cl-orange-100);
+    font: var(--font-button);
+    border-radius: var(--radius-button);
+    cursor: pointer;
+    border: none;
+}
+
+.Button__link {
+    display: flex;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+.Button:hover {
+    background-color: var(--cl-orange-80);
+}
+
+.Button:active {
+    background-color: var(--cl-orange-120);
+}
+
+@media (max-width: 760px) {
+    .Button {
+        max-width: 288px;
+        padding: 16px 0;
+    }
+
+    .Button__link {
+        justify-content: center;
+    }
+}
