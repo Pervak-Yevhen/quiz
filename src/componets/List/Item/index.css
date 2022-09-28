@@ -74,12 +74,8 @@
 .Item__content-text {
     display: block;
     white-space: nowrap;
-    overflow-x: hidden;
+    overflow: hidden;
     text-overflow: ellipsis;
-}
-
-.Item__content-text--alphabet {
-    /*counter-reset: answer;*/
 }
 
 .Item__content-text--alphabet::before {

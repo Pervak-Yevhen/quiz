@@ -1,6 +1,7 @@
 {
   "name": "quiz",
   "version": "0.1.0",
+  "homepage": "https://zhenya-pervak.github.io/quiz/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
@@ -20,6 +21,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "lint": "eslint ./",
     "lint-fix": "eslint ./ --fix",
     "start": "react-scripts start",
@@ -57,5 +60,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
