@@ -1,0 +1,74 @@
+[
+  {
+    "question": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when ",
+    "variants": ["Right", "Wrong", "Wrong", "Wrong"],
+    "answer": [0],
+    "prize": 500
+  },
+  {
+    "question": "question 2",
+    "variants": ["Wrong", "Right", "Wrong", "Right"],
+    "answer": [1, 3],
+    "prize": 1000
+  },
+  {
+    "question": "question 3",
+    "variants": ["Right", "Wrong", "Right", "Wrong"],
+    "answer": [0, 2],
+    "prize": 2000
+  },
+  {
+    "question": "question 4",
+    "variants": ["Wrong", "Wrong", "Wrong", "Right"],
+    "answer": [3],
+    "prize": 4000
+  },
+  {
+    "question": "question 5",
+    "variants": ["Right", "Wrong", "Wrong", "Wrong"],
+    "answer": [0],
+    "prize": 8000
+  },
+  {
+    "question": "question 6",
+    "variants": ["Wrong", "Right", "Wrong", "Wrong"],
+    "answer": [1],
+    "prize": 16000
+  },
+  {
+    "question": "question 7",
+    "variants": ["Wrong", "Wrong", "Right", "Wrong"],
+    "answer": [2],
+    "prize": 32000
+  },
+  {
+    "question": "question 8",
+    "variants": ["Wrong", "Wrong", "Wrong", "Right"],
+    "answer": [3],
+    "prize": 64000
+  },
+  {
+    "question": "question 9",
+    "variants": ["Right", "Wrong", "Wrong", "Wrong"],
+    "answer": [0],
+    "prize": 125000
+  },
+  {
+    "question": "question 10",
+    "variants": ["Wrong", "Right", "Wrong", "Wrong"],
+    "answer": [1],
+    "prize": 250000
+  },
+  {
+    "question": "question 11",
+    "variants": ["Wrong", "Wrong", "Right", "Wrong"],
+    "answer": [2],
+    "prize": 5000000
+  },
+  {
+    "question": "question 12",
+    "variants": ["Wrong", "Wrong", "Wrong", "Right"],
+    "answer": [3],
+    "prize": 1000000
+  }
+]

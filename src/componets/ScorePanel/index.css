@@ -1,0 +1,12 @@
+.ScorePanel {
+    width: 100%;
+    padding: 20px 0;
+    min-width: 255px;
+}
+
+/*@media (max-width: 760px) {*/
+/*    .ScorePanel {*/
+/*        margin: auto;*/
+/*    }*/
+
+/*}*/
