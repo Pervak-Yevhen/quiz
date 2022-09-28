@@ -24,13 +24,15 @@
     background-color: var(--cl-orange-120);
 }
 
+@media (max-width: 880px) {
+    .Button {
+        margin: 0 auto;
+    }
+}
+
 @media (max-width: 760px) {
     .Button {
         max-width: 288px;
         padding: 16px 0;
-    }
-
-    .Button__link {
-        justify-content: center;
     }
 }

@@ -1,24 +1,27 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { useNavigate } from "react-router-dom";
 
 import './index.css'
 
 interface IButton {
     text: string;
     to?: string;
-    onClick?: React.MouseEventHandler<HTMLButtonElement>;
+    onClick?: () => void;
 }
 
-const Button = ({ text, onClick, to = '' }: IButton): JSX.Element => {
+const Button = ({ text, onClick, to }: IButton): JSX.Element => {
+  const navigate = useNavigate();
+  const click = () => {
+    if (to) navigate(to);
+    if (onClick) onClick();
+  }
   return (
-    <NavLink to={to} className="Button__link">
-      <button
-        className="Button"
-        onClick={onClick}
-      >
-        {text}
-      </button>
-    </NavLink>
+    <button
+      className="Button"
+      onClick={click}
+    >
+      {text}
+    </button>
   );
 }
 

@@ -3,7 +3,6 @@
     flex: 1;
     display: flex;
     justify-content: center;
-    /*overflow-y: auto;*/
 }
 
 .Quiz__content {
@@ -49,7 +48,7 @@
         bottom: 0;
         top: 0;
         overflow: hidden;
-        transition: visibility .3s, opacity .2s;
+        transition: width .3s;
     }
 
     .Quiz__panel--show {

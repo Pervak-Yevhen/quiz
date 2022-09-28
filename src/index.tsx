@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import Quiz from './pages/Quiz';
 import Home from './pages/Home';
 import PrivateRoute from './componets/PrivateRoute';
@@ -22,7 +22,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <ErrorBoundary>
-      <BrowserRouter>
+      <HashRouter>
         <QuizContextProvider>
           <Routes>
             <Route path={ROOT_ROUTE} element={<Home />} />
@@ -36,7 +36,7 @@ root.render(
             <Route path="*" element={<Navigate to={ROOT_ROUTE} />} />
           </Routes>
         </QuizContextProvider>
-      </BrowserRouter>
+      </HashRouter>
     </ErrorBoundary>
   </React.StrictMode>
 );
